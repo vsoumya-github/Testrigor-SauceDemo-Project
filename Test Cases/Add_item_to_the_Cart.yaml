@@ -1,0 +1,11 @@
+uuid: ba6eda50-b9fa-40ab-aed4-c2ebdfe4e497
+customSteps: |
+  enter "standard_user" into "Username"
+  enter "secret_sauce" into "Password"
+  click "Login"
+  click "Add to cart" next to "Sauce Labs Backpack"
+  click on "Cart"
+  check that page contains "Sauce Labs Backpack"
+labels: []
+disabled: false
+applicationId: SiE7sgNfTQWeJgTxx

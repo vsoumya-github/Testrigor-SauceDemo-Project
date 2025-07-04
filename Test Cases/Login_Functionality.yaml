@@ -1,0 +1,9 @@
+uuid: 2078d041-e21a-46ce-9a56-ed2ecf15048f
+customSteps: |
+  enter "standard_user" into "Username"
+  enter "secret_sauce" into "Password"
+  click "Login"
+  check that page contains "Products"
+labels: []
+disabled: false
+applicationId: SiE7sgNfTQWeJgTxx

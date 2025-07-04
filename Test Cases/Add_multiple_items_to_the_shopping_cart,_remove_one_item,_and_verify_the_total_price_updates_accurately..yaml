@@ -1,0 +1,31 @@
+uuid: 641704c6-9159-4572-af47-790de9378dd3
+customSteps: |
+  login
+  enter "standard_user" into "Username"
+  enter "secret_sauce" into "Password"
+  click "Login"
+  click "Add to cart" on the right of "$29.99"
+  click "Add to cart" on the right of "$9.99"
+  click "Add to cart" on the right of "$15.99"
+  click "3" on the right of "Swag Labs"
+  scroll down
+  click "Checkout"
+  click "Cancel"
+  click "Checkout"
+  enter "John" into "First Name"
+  enter "Doe" into "Last Name"
+  enter "12345" into "Zip/Postal Code"
+  click "Continue"
+  scroll down
+  click "Cancel"
+  click "3" on the right of "Swag Labs"
+  click "Remove" on the right of "$9.99"
+  click "Checkout"
+  enter "John" into "First Name"
+  enter "Doe" into "Last Name"
+  enter "12345" into "Zip/Postal Code"
+  click "Continue"
+  check that page contains "$45.98"
+labels: []
+disabled: false
+applicationId: SiE7sgNfTQWeJgTxx
